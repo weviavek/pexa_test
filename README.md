@@ -32,5 +32,3 @@ This Flutter application combines five tasks into a single app, showcasing vario
 * **Dio:** HTTP client for API calls.
 * **fluttertoast:** To display alert messages.
 * **rename_app:** To rename app.
-
-## Project Structure
