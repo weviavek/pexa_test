@@ -14,7 +14,8 @@ class TaskTwoController extends GetxController {
   }
 
   void onChange(String value) {
-    filteredList = value.isEmpty ? Constants.countryNames : Constants.countryNames.where((val) => val.contains(value)).toList();
+    filteredList =
+        value.isEmpty ? Constants.countryNames : Constants.countryNames.where((val) => val.toLowerCase().contains(value.toLowerCase())).toList();
     update();
   }
 }
